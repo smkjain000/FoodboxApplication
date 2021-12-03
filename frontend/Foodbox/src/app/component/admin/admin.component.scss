@@ -1,0 +1,53 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.card{
+    height: 70vh;
+    margin-top: 75px;
+    padding: 25px;
+    width: 120vh;
+
+}
+.button{
+    font-size: 14px !important;
+    font-weight: 400;
+    padding: 8px 72px;
+    border-radius: 3px !important;
+    text-align: center;
+}
+.table{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  .heading{
+    margin-top: 450px;
+    text-align: left;
+    margin-left: 300px;
+}
+
+.update{
+    height: 25vh;
+    margin-top: 65px;
+    padding: 25px;
+    width: 80vh;
+    margin-left: 350px;
+
+}
+
+.button-1{
+    background-color: rgb(107, 107, 170);
+    color: oldlace;
+    border-radius: 0.2cm;
+    margin: 5px;
+}

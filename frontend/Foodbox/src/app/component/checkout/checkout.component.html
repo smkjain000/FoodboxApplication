@@ -1,0 +1,68 @@
+<h2 style="text-align: center; margin-top: 10px; color: deepskyblue">
+    Checkout
+  </h2>
+  <div class="container">
+    <div class="center">
+      <div>
+        <form
+          class="card"
+        >
+          <div class="form-group row">
+            <label for="id" class="col-sm-2 col-form-label">Name</label>
+            <div class="col-sm-10">
+              <input #name 
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your Name"
+                name="name"
+              /><br />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="name" class="col-sm-2 col-form-label">Address</label>
+            <div class="col-sm-10">
+              <input 
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="Enter your address"
+                name="address"
+              /><br />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="category" class="col-sm-2 col-form-label">Mobile No</label>
+            <div class="col-sm-10">
+              <input
+                type="number"
+                class="form-control"
+                id="mobile"
+                placeholder="Enter Mobile No"
+                name="mobile"
+               
+              /><br />
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <label for="price" class="col-sm-2 col-form-label">Email Id</label>
+            <div class="col-sm-10">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Enter your Email id"
+                name="email"
+               
+              /><br />
+            </div>
+          </div>
+         <strong> Grand Total : ₹{{grandTotal}} </strong>
+  
+          <div class="button">
+            <button routerLink="/success" type="submit" class="btn btn-danger" (click)="congratsname()">Place Order</button>
+          </div>
+        </form>
+      </div>
+    </div>
